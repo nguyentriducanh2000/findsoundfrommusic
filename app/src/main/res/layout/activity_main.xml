@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/hiclipart"
+    android:background="#EFE9C4"
+    tools:ignore="ExtraText">
+
+    <ImageButton
+        android:id="@+id/recbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="226dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mic1"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <TextView
+        android:id="@+id/texttop"
+        android:layout_width="278dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="469dp"
+        android:gravity="center"
+        android:text="Press to start"
+        android:textColor="#CA2ADB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textbot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="182dp"
+        android:gravity="center"
+        android:text="Record to start"
+        android:textColor="#BB36A5"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/stoprec"
+        android:layout_width="302dp"
+        android:layout_height="268dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="165dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        tools:visibility="invisible"
+        android:scaleType="fitCenter"
+        android:src="@drawable/record" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/wait"
+        android:layout_width="123dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="238dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/wait" />
+
+
+</RelativeLayout>
