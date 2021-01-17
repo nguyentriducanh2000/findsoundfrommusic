@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
     Retrofit retrofit = new Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .client(okHttpClient)
-            .baseUrl("http://34.87.20.174/")
+            .baseUrl("http://34.87.8.31/")
             .build();
 
     GitHubService service = retrofit.create(GitHubService.class);
